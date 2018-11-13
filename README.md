@@ -2,16 +2,16 @@
 This repository contains the programs to create a CNN for landmarking on beetle's anatomical images.
 
 The files and their meaning are following:
-    - readCSV.py: load and normalize data. Normally, the data is stored in csv files.
-    - utils.py: implements the helps functions such as drawing the losses, writing the file, or drawing the results, etc.
-    - cnnmodel.py: defines the structure of the network and a method to train the network.
-    - fineTune.py: contains the functions to load the trained model and fine-tuning it.
-    - runTraining.py: this is the main file to train the model from scratch with cross-validation
-    - runFineTuning.py: to fine-tune the trained model in different fold of data (cross-validation)
-    - runTest.py: runs to predict the landmarks on the image of the test set.
+   - readCSV.py: load and normalize data. Normally, the data is stored in csv files.
+   - utils.py: implements the helps functions such as drawing the losses, writing the file, or drawing the results, etc.
+   - cnnmodel.py: defines the structure of the network and a method to train the network.
+   - fineTune.py: contains the functions to load the trained model and fine-tuning it.
+   - runTraining.py: this is the main file to train the model from scratch with cross-validation
+   - runFineTuning.py: to fine-tune the trained model in different fold of data (cross-validation)
+   - runTest.py: runs to predict the landmarks on the image of the test set.
 
 # Notes:
-    Contact to the author if you need the data to train/fine-tune a trained model.
+    Contact to the author if you need the data to train/fine-tune (trained) model.
 
 # To train the network:
 1. Change the location (file path) where you store the training/testing data (csv files)
