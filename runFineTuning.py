@@ -1,12 +1,29 @@
+'''
+ Elementary Blocks Network to landmark anatomical images
+ Copyright (C) 2018  Le Van Linh (van-linh.le@u-bordeaux.fr)
+ Version: 1.0
+ Created on: March, 2018
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/.
+'''
+
 
 from fineTune_freeze import fine_tune
 '''
 Fine-tuning the model v17 on 3 parts (pronotum, tete and elytre)
 
 '''
-
-
-
 #def fine_tune(fmodel,ftrain,epochs,ftest,savemodel,saveloss,savetest):
 
 FMODEL = '/home/linh/Examples/trained_models/trained_Beetles/cnnmodel3_all_10000_epochs_.pickle'
