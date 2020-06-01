@@ -29,4 +29,14 @@ The files and their meaning are following:
 2. Change the location of testing data
 3. Change the folder where you want to store the output
 
+# Bibtex
+If you want to cite this work, feel free to use this:
+@inproceedings{le2018landmarks,
+  title={Landmarks detection by applying Deep networks},
+  author={Le, Van-Linh and Beurton-Aimar, Marie and Zemmari, Akka and Parisey, Nicolas},
+  booktitle={2018 1st International Conference on Multimedia Analysis and Pattern Recognition (MAPR)},
+  pages={1--6},
+  year={2018},
+  organization={IEEE}
+}
 
